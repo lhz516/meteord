@@ -1,5 +1,5 @@
-FROM abernix/meteord:base
-MAINTAINER MeteorHacks Pvt Ltd.
+FROM hanzluo/meteord:base
+MAINTAINER Hanz Luo
 
 ARG NODE_VERSION
 ENV NODE_VERSION ${NODE_VERSION:-8.3.0}
